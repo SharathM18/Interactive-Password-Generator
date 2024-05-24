@@ -1,0 +1,92 @@
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+.container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 360px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.functionality-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+#password {
+  width: 17.5em;
+  padding: 0.5em 1em;
+  border-radius: 5em;
+  border: 1.5px solid rgb(49, 48, 48);
+}
+
+.password-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-block img {
+  cursor: pointer;
+  border: 1.5px solid black;
+  border-radius: 5em;
+  padding: 5px;
+  margin-left: 0.5em;
+}
+
+.length-block,
+.include-number-block,
+.include-special-character-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.include-number-block,
+.include-special-character-block {
+  padding-right: 1.2em;
+}
+
+.generate-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate-password button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0;
+  border: 1.5px solid rgb(57, 55, 55);
+  border-radius: 20em;
+  background: none;
+  cursor: pointer;
+  transition: all 400ms ease 0s;
+}
+
+.generate-password button:hover {
+  color: white;
+  background-color: rgb(69, 67, 67);
+}
